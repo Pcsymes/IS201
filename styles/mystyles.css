@@ -1,0 +1,53 @@
+ol {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: 300;
+}
+ul {
+    font-size: medium;
+    font-weight: 200;
+}
+p {
+    font-size: small;
+}
+.row {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.h1 {
+    align-items: center;
+}
+h2 {
+    color: rgb(3, 3, 95);
+}
+body {
+    margin-left: auto;
+}
+main {
+    margin-left: 0%;
+    margin-right: 0%;
+    align-content: center;
+}
+.tableaubody {
+    background-color: rgb(179, 218, 219);
+}
+.menu {
+    display: flex;
+    border: 3px black;
+    background-color: rgb(9, 9, 102);
+}
+.menu li {
+    text-align: center;
+    padding: 5px;
+    height: 30px;
+}
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+.menu li a:hover {
+    font-size: 35px;
+}
